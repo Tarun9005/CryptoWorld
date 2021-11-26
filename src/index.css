@@ -1,0 +1,227 @@
+.crypto{
+  font-family: 'Festive', cursive;
+  font-size: 30px;
+  font-weight:900 ;
+}
+.footerbg{
+  background-color: #212529;
+}
+.copybg{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cheading{
+  margin-top: -210px;
+}
+.trendingtxt{
+  font-size: 23px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.trendingimg{
+  width: 60%;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.card{
+  background-color: bisque !important;
+  border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 60px 18px 36px;
+  cursor: pointer;
+}
+.card:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.welcomeconverter{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.table-striped{
+  margin-top: 40px;
+}
+.jumbtron{
+  background-color: bisque;
+}
+.coinimg{
+  width: 145px;
+}
+.jumb{
+  border-radius: 4px;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  cursor: pointer;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.jumb:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.aboutpic{
+  width: -webkit-fill-available;
+}
+.exchangeimg{
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 20%;
+  
+}
+.exchangename{
+  font-weight: 700;
+  font-size: 20px;
+}
+.wishbtn{
+  margin-left: 22px;
+}
+.cardexchange{
+  padding: 11px 12px 12px 17px !important;
+}
+.exchangeheading{
+  font-weight: 700;
+  font-size: 25px;
+}
+.exchangesubheading{
+  font-weight: 500;
+  font-size: 20px;
+}
+.loginbtn{
+  padding-left: 2.5rem; padding-right: 2.5rem;
+}
+.form-errors{
+  color: red;
+  font-style: italic;
+}
+
+.bgexchange{
+  background-color: bisque !important;
+}
+
+.bgexchange i{
+  color: brown;
+}
+
+.success-msg{
+  color: green;
+  font-style: italic;
+}
+
+.wishlistimg img{
+  width: 40%;
+}
+.exploremobile{
+  display: none;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: darkblue;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#snackbar2 {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 30px;
+  font-size: 17px;
+}
+
+
+#snackbar2.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+@-webkit-keyframes fadein {
+  from {top: 0; opacity: 0;} 
+  to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {top: 0; opacity: 0;}
+  to {top: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {top: 30px; opacity: 1;} 
+  to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {top: 30px; opacity: 1;}
+  to {top: 0; opacity: 0;}
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .coinimg{
+    width: -webkit-fill-available;
+  }
+  #carouselExampleCaptions{
+    display: none;
+  }
+  .exploremobile{
+    display: block !important;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+.mobsmall{
+  font-size: 20px;
+}
+.errorimg img{
+  width: -webkit-fill-available !important;
+}
+}
+
+.notfound{
+  color: black;
+  font-style: italic;
+  font-size: 30px;
+}
+.errorimg img{
+  width: 50% !important;
+}

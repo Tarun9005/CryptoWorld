@@ -1,0 +1,149 @@
+{
+  "userDetails": [
+    {
+      "email": "tarun@gmail.com",
+      "password": "1234567",
+      "id": 1
+    },
+    {
+      "email": "tarun.shekher@gmail.com",
+      "name": "Tarun1",
+      "contact": "8299154257",
+      "password": "123456",
+      "favourites": [],
+      "id": 2
+    },
+    {
+      "email": "rajatsrivastav1600@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "email": "rajatsrivastava1600@gmail.com",
+      "name": "Tarun2",
+      "contact": "9005108872",
+      "password": "123456",
+      "favourites": [],
+      "id": 4
+    },
+    {
+      "contact": "9005108872",
+      "password": "123456789",
+      "email": "tarun4@gmail.com",
+      "favourites": [
+        {
+          "id": "newdex",
+          "name": "Newdex",
+          "image": "https://assets.coingecko.com/markets/images/314/small/4bFYszpP_400x400.jpg?1541110686",
+          "url": "https://newdex.io/",
+          "trustrank": 307,
+          "country": "Cayman Islands",
+          "year": 2018
+        }
+      ],
+      "id": 5
+    },
+    {
+      "email": "tar@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "contact": "9005108872",
+      "password": "123456",
+      "email": "tare@gmail.com",
+      "favourites": [
+        {
+          "id": "newdex",
+          "name": "Newdex",
+          "image": "https://assets.coingecko.com/markets/images/314/small/4bFYszpP_400x400.jpg?1541110686",
+          "url": "https://newdex.io/",
+          "trustrank": 310,
+          "country": "Cayman Islands",
+          "year": 2018
+        },
+        {
+          "id": "cybex",
+          "name": "Cybex DEX",
+          "image": "https://assets.coingecko.com/markets/images/186/small/cybex.jpg?1529814811",
+          "url": "https://dex.cybex.io/",
+          "trustrank": 310,
+          "country": null,
+          "year": 2017
+        }
+      ],
+      "id": 7
+    },
+    {
+      "email": "tar1@gmail.com",
+      "name": "Tarun",
+      "contact": "9005108872",
+      "password": "123456",
+      "favourites": [],
+      "id": 8
+    },
+    {
+      "email": "tarr@gmail.com",
+      "name": "Tarun",
+      "contact": "9005108872",
+      "password": "123456",
+      "favourites": [],
+      "id": 9
+    },
+    {
+      "email": "tar5@gmail.com",
+      "name": "Tarun",
+      "contact": "9005108872",
+      "password": "123456",
+      "favourites": [],
+      "id": 10
+    },
+    {
+      "email": "tar6@gmail.com",
+      "contact": "9005108869",
+      "password": "123456",
+      "favourites": [],
+      "id": 11
+    },
+    {
+      "email": "tarun99@gmail.com",
+      "name": "Tarun Shekher",
+      "contact": "7355962158",
+      "password": "123456",
+      "favourites": [],
+      "id": 12
+    },
+    {
+      "email": "tarun42@gmail.com",
+      "name": "Tarun",
+      "contact": "9005108872",
+      "password": "123456789",
+      "favourites": [],
+      "id": 13
+    },
+    {
+      "email": "tarun919@gmail.com",
+      "name": "Tarun Shekher",
+      "contact": "7355962158",
+      "password": "123456",
+      "favourites": [],
+      "id": 14
+    },
+    {
+      "email": "tarun9196@gmail.com",
+      "name": "Tarun Shekher",
+      "contact": "7355962158",
+      "password": "123456",
+      "favourites": [],
+      "id": 15
+    },
+    {
+      "email": "tarun91962@gmail.com",
+      "name": "Tarun Shekher",
+      "contact": "7355962158",
+      "password": "123456",
+      "favourites": [],
+      "id": 16
+    }
+  ]
+}
